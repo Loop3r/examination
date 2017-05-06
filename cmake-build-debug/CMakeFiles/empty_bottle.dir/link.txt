@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/empty_bottle.dir/empty_bottle.c.o  -o empty_bottle 

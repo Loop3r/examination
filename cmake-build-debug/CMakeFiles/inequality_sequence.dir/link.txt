@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/inequality_sequence.dir/inequality_sequence.c.o  -o inequality_sequence 

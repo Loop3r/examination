@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/put_tail_sort.dir/put_tail_sort.c.o  -o put_tail_sort 

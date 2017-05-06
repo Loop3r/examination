@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/sort_remove_repeat.dir/sort_remove_repeat.c.o  -o sort_remove_repeat 

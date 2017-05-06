@@ -1,0 +1,10 @@
+/home/champer/coding/examination/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/champer/coding/examination/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/champer/coding/examination/cmake-build-debug/CMakeFiles/inequality_sequence.dir
+/home/champer/coding/examination/cmake-build-debug/CMakeFiles/put_tail_sort.dir
+/home/champer/coding/examination/cmake-build-debug/CMakeFiles/triangle_area.dir
+/home/champer/coding/examination/cmake-build-debug/CMakeFiles/go_home.dir
+/home/champer/coding/examination/cmake-build-debug/CMakeFiles/empty_bottle.dir
+/home/champer/coding/examination/cmake-build-debug/CMakeFiles/sort_remove_repeat.dir
+/home/champer/coding/examination/cmake-build-debug/CMakeFiles/hex_to_dec.dir
+/home/champer/coding/examination/cmake-build-debug/CMakeFiles/buy_hat.dir

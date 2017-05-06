@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/buy_hat.dir/buy_hat.c.o  -o buy_hat 
