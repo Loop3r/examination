@@ -24,8 +24,10 @@ G 12 16 8
 */
 
 #include <stdio.h>
+#include <iostream>
 #include <stdbool.h>
 #include <math.h>
+using namespace std;
 
 struct DOT{
     char color;
@@ -44,14 +46,14 @@ bool is_triangle(struct DOT A, struct DOT B, struct DOT C){
     double a = dist(A, B);
     double b = dist(B, C);
     double c = dist(A, C);
-    if(a<(b+c) && b<(a+c) && c<(a+b)){
+    if((a<(b+c)) && (b<(a+c)) && (c<(a+b))){
         return true;
     }
     return false;
 }
 
 bool is_color_right(struct DOT A, struct DOT B, struct DOT C){
-    if((A.color==B.color==C.color) || (A.color!=B.color && A.color!=C.color && B.color!=C.color))
+    if((A.color==B.color && B.color==C.color && A.color==C.color) || (A.color!=B.color && A.color!=C.color && B.color!=C.color))
     {
         return true;
     }
@@ -69,22 +71,25 @@ double get_area(struct DOT A, struct DOT B, struct DOT C){
 int main(int argc, char* argv[])
 {
     struct DOT dot[50];
-    double MAX = 0.0;
-    double area;
+    double MAX;
+    double area = 0.0;
     int n;
     while(scanf("%d",&n) != EOF){
+        MAX = 0.0;
         for(int i=0; i<n; i++){
-            scanf("%c%d%d%d", &dot[i].color, &dot[i].x, &dot[i].y, &dot[i].z);
+            //scanf("%c %d %d %d", &dot[i].color, &dot[i].x, &dot[i].y, &dot[i].z);
+            cin >> dot[i].color >> dot[i].x >> dot[i].y >> dot[i].z;
         }
 
         for(int i=0; i<n; i++)
             for(int j=i+1; j<n; j++)
                 for(int k=j+1; k<n; k++)
-                    if(is_triangle(dot[i], dot[j], dot[k]) && is_color_right(dot[i], dot[j], dot[k]))
+                    if((is_triangle(dot[i], dot[j], dot[k])) && (is_color_right(dot[i], dot[j], dot[k]))) {
                         area = get_area(dot[i], dot[j], dot[k]);
-                        if(area > MAX)
+                        if (area > MAX)
                             MAX = area;
-        printf("%.5lf", MAX);
+                    }
+        printf("%.5f\n", MAX);
     }
 
     return 0;

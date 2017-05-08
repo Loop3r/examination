@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/champer/coding/examination
+CMAKE_SOURCE_DIR = /home/champer/examination
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/champer/coding/examination/cmake-build-debug
+CMAKE_BINARY_DIR = /home/champer/examination/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/inequality_sequence.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/champer/coding/examination/cmake-build-debug
 CMakeFiles/inequality_sequence.dir/all:
 	$(MAKE) -f CMakeFiles/inequality_sequence.dir/build.make CMakeFiles/inequality_sequence.dir/depend
 	$(MAKE) -f CMakeFiles/inequality_sequence.dir/build.make CMakeFiles/inequality_sequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/champer/coding/examination/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target inequality_sequence"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/champer/examination/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target inequality_sequence"
 .PHONY : CMakeFiles/inequality_sequence.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/inequality_sequence.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/inequality_sequence.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/coding/examination/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/examination/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/inequality_sequence.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/coding/examination/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/examination/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/inequality_sequence.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ clean: CMakeFiles/inequality_sequence.dir/clean
 CMakeFiles/put_tail_sort.dir/all:
 	$(MAKE) -f CMakeFiles/put_tail_sort.dir/build.make CMakeFiles/put_tail_sort.dir/depend
 	$(MAKE) -f CMakeFiles/put_tail_sort.dir/build.make CMakeFiles/put_tail_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/champer/coding/examination/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target put_tail_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/champer/examination/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target put_tail_sort"
 .PHONY : CMakeFiles/put_tail_sort.dir/all
 
 # Include target in all.
@@ -113,9 +113,9 @@ all: CMakeFiles/put_tail_sort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/put_tail_sort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/coding/examination/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/examination/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/put_tail_sort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/coding/examination/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/examination/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/put_tail_sort.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ clean: CMakeFiles/put_tail_sort.dir/clean
 CMakeFiles/triangle_area.dir/all:
 	$(MAKE) -f CMakeFiles/triangle_area.dir/build.make CMakeFiles/triangle_area.dir/depend
 	$(MAKE) -f CMakeFiles/triangle_area.dir/build.make CMakeFiles/triangle_area.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/champer/coding/examination/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target triangle_area"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/champer/examination/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target triangle_area"
 .PHONY : CMakeFiles/triangle_area.dir/all
 
 # Include target in all.
@@ -150,9 +150,9 @@ all: CMakeFiles/triangle_area.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/triangle_area.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/coding/examination/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/examination/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/triangle_area.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/coding/examination/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/examination/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/triangle_area.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ clean: CMakeFiles/triangle_area.dir/clean
 CMakeFiles/go_home.dir/all:
 	$(MAKE) -f CMakeFiles/go_home.dir/build.make CMakeFiles/go_home.dir/depend
 	$(MAKE) -f CMakeFiles/go_home.dir/build.make CMakeFiles/go_home.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/champer/coding/examination/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target go_home"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/champer/examination/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target go_home"
 .PHONY : CMakeFiles/go_home.dir/all
 
 # Include target in all.
@@ -187,9 +187,9 @@ all: CMakeFiles/go_home.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/go_home.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/coding/examination/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/examination/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/go_home.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/coding/examination/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/examination/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/go_home.dir/rule
 
 # Convenience name for target.
@@ -214,7 +214,7 @@ clean: CMakeFiles/go_home.dir/clean
 CMakeFiles/empty_bottle.dir/all:
 	$(MAKE) -f CMakeFiles/empty_bottle.dir/build.make CMakeFiles/empty_bottle.dir/depend
 	$(MAKE) -f CMakeFiles/empty_bottle.dir/build.make CMakeFiles/empty_bottle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/champer/coding/examination/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target empty_bottle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/champer/examination/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target empty_bottle"
 .PHONY : CMakeFiles/empty_bottle.dir/all
 
 # Include target in all.
@@ -224,9 +224,9 @@ all: CMakeFiles/empty_bottle.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/empty_bottle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/coding/examination/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/examination/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/empty_bottle.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/coding/examination/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/examination/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/empty_bottle.dir/rule
 
 # Convenience name for target.
@@ -251,7 +251,7 @@ clean: CMakeFiles/empty_bottle.dir/clean
 CMakeFiles/sort_remove_repeat.dir/all:
 	$(MAKE) -f CMakeFiles/sort_remove_repeat.dir/build.make CMakeFiles/sort_remove_repeat.dir/depend
 	$(MAKE) -f CMakeFiles/sort_remove_repeat.dir/build.make CMakeFiles/sort_remove_repeat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/champer/coding/examination/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target sort_remove_repeat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/champer/examination/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target sort_remove_repeat"
 .PHONY : CMakeFiles/sort_remove_repeat.dir/all
 
 # Include target in all.
@@ -261,9 +261,9 @@ all: CMakeFiles/sort_remove_repeat.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sort_remove_repeat.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/coding/examination/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/examination/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sort_remove_repeat.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/coding/examination/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/examination/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/sort_remove_repeat.dir/rule
 
 # Convenience name for target.
@@ -288,7 +288,7 @@ clean: CMakeFiles/sort_remove_repeat.dir/clean
 CMakeFiles/hex_to_dec.dir/all:
 	$(MAKE) -f CMakeFiles/hex_to_dec.dir/build.make CMakeFiles/hex_to_dec.dir/depend
 	$(MAKE) -f CMakeFiles/hex_to_dec.dir/build.make CMakeFiles/hex_to_dec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/champer/coding/examination/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target hex_to_dec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/champer/examination/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target hex_to_dec"
 .PHONY : CMakeFiles/hex_to_dec.dir/all
 
 # Include target in all.
@@ -298,9 +298,9 @@ all: CMakeFiles/hex_to_dec.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hex_to_dec.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/coding/examination/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/examination/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hex_to_dec.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/coding/examination/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/examination/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hex_to_dec.dir/rule
 
 # Convenience name for target.
@@ -325,7 +325,7 @@ clean: CMakeFiles/hex_to_dec.dir/clean
 CMakeFiles/buy_hat.dir/all:
 	$(MAKE) -f CMakeFiles/buy_hat.dir/build.make CMakeFiles/buy_hat.dir/depend
 	$(MAKE) -f CMakeFiles/buy_hat.dir/build.make CMakeFiles/buy_hat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/champer/coding/examination/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target buy_hat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/champer/examination/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target buy_hat"
 .PHONY : CMakeFiles/buy_hat.dir/all
 
 # Include target in all.
@@ -335,9 +335,9 @@ all: CMakeFiles/buy_hat.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/buy_hat.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/coding/examination/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/examination/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/buy_hat.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/coding/examination/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/champer/examination/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/buy_hat.dir/rule
 
 # Convenience name for target.

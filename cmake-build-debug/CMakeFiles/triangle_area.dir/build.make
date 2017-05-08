@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/champer/coding/examination
+CMAKE_SOURCE_DIR = /home/champer/examination
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/champer/coding/examination/cmake-build-debug
+CMAKE_BINARY_DIR = /home/champer/examination/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/triangle_area.dir/depend.make
@@ -57,41 +57,41 @@ include CMakeFiles/triangle_area.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/triangle_area.dir/flags.make
 
-CMakeFiles/triangle_area.dir/triangle_area.c.o: CMakeFiles/triangle_area.dir/flags.make
-CMakeFiles/triangle_area.dir/triangle_area.c.o: ../triangle_area.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/champer/coding/examination/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/triangle_area.dir/triangle_area.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/triangle_area.dir/triangle_area.c.o   -c /home/champer/coding/examination/triangle_area.c
+CMakeFiles/triangle_area.dir/triangle_area.cpp.o: CMakeFiles/triangle_area.dir/flags.make
+CMakeFiles/triangle_area.dir/triangle_area.cpp.o: ../triangle_area.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/champer/examination/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/triangle_area.dir/triangle_area.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/triangle_area.dir/triangle_area.cpp.o -c /home/champer/examination/triangle_area.cpp
 
-CMakeFiles/triangle_area.dir/triangle_area.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/triangle_area.dir/triangle_area.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/champer/coding/examination/triangle_area.c > CMakeFiles/triangle_area.dir/triangle_area.c.i
+CMakeFiles/triangle_area.dir/triangle_area.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/triangle_area.dir/triangle_area.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/champer/examination/triangle_area.cpp > CMakeFiles/triangle_area.dir/triangle_area.cpp.i
 
-CMakeFiles/triangle_area.dir/triangle_area.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/triangle_area.dir/triangle_area.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/champer/coding/examination/triangle_area.c -o CMakeFiles/triangle_area.dir/triangle_area.c.s
+CMakeFiles/triangle_area.dir/triangle_area.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/triangle_area.dir/triangle_area.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/champer/examination/triangle_area.cpp -o CMakeFiles/triangle_area.dir/triangle_area.cpp.s
 
-CMakeFiles/triangle_area.dir/triangle_area.c.o.requires:
+CMakeFiles/triangle_area.dir/triangle_area.cpp.o.requires:
 
-.PHONY : CMakeFiles/triangle_area.dir/triangle_area.c.o.requires
+.PHONY : CMakeFiles/triangle_area.dir/triangle_area.cpp.o.requires
 
-CMakeFiles/triangle_area.dir/triangle_area.c.o.provides: CMakeFiles/triangle_area.dir/triangle_area.c.o.requires
-	$(MAKE) -f CMakeFiles/triangle_area.dir/build.make CMakeFiles/triangle_area.dir/triangle_area.c.o.provides.build
-.PHONY : CMakeFiles/triangle_area.dir/triangle_area.c.o.provides
+CMakeFiles/triangle_area.dir/triangle_area.cpp.o.provides: CMakeFiles/triangle_area.dir/triangle_area.cpp.o.requires
+	$(MAKE) -f CMakeFiles/triangle_area.dir/build.make CMakeFiles/triangle_area.dir/triangle_area.cpp.o.provides.build
+.PHONY : CMakeFiles/triangle_area.dir/triangle_area.cpp.o.provides
 
-CMakeFiles/triangle_area.dir/triangle_area.c.o.provides.build: CMakeFiles/triangle_area.dir/triangle_area.c.o
+CMakeFiles/triangle_area.dir/triangle_area.cpp.o.provides.build: CMakeFiles/triangle_area.dir/triangle_area.cpp.o
 
 
 # Object files for target triangle_area
 triangle_area_OBJECTS = \
-"CMakeFiles/triangle_area.dir/triangle_area.c.o"
+"CMakeFiles/triangle_area.dir/triangle_area.cpp.o"
 
 # External object files for target triangle_area
 triangle_area_EXTERNAL_OBJECTS =
 
-triangle_area: CMakeFiles/triangle_area.dir/triangle_area.c.o
+triangle_area: CMakeFiles/triangle_area.dir/triangle_area.cpp.o
 triangle_area: CMakeFiles/triangle_area.dir/build.make
 triangle_area: CMakeFiles/triangle_area.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/champer/coding/examination/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable triangle_area"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/champer/examination/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable triangle_area"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/triangle_area.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +99,7 @@ CMakeFiles/triangle_area.dir/build: triangle_area
 
 .PHONY : CMakeFiles/triangle_area.dir/build
 
-CMakeFiles/triangle_area.dir/requires: CMakeFiles/triangle_area.dir/triangle_area.c.o.requires
+CMakeFiles/triangle_area.dir/requires: CMakeFiles/triangle_area.dir/triangle_area.cpp.o.requires
 
 .PHONY : CMakeFiles/triangle_area.dir/requires
 
@@ -108,6 +108,6 @@ CMakeFiles/triangle_area.dir/clean:
 .PHONY : CMakeFiles/triangle_area.dir/clean
 
 CMakeFiles/triangle_area.dir/depend:
-	cd /home/champer/coding/examination/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/champer/coding/examination /home/champer/coding/examination /home/champer/coding/examination/cmake-build-debug /home/champer/coding/examination/cmake-build-debug /home/champer/coding/examination/cmake-build-debug/CMakeFiles/triangle_area.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/champer/examination/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/champer/examination /home/champer/examination /home/champer/examination/cmake-build-debug /home/champer/examination/cmake-build-debug /home/champer/examination/cmake-build-debug/CMakeFiles/triangle_area.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/triangle_area.dir/depend
 

@@ -1,4 +1,4 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/champer/coding/examination
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/champer/examination
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/champer/coding/examination/cmake-build-debug
+-- Build files have been written to: /home/champer/examination/cmake-build-debug

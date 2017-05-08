@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/champer/coding/examination/buy_hat.c" "/home/champer/coding/examination/cmake-build-debug/CMakeFiles/buy_hat.dir/buy_hat.c.o"
+  "/home/champer/examination/buy_hat.c" "/home/champer/examination/cmake-build-debug/CMakeFiles/buy_hat.dir/buy_hat.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

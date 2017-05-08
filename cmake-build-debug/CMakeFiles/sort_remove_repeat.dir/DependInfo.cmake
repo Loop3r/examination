@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/champer/coding/examination/sort_remove_repeat.c" "/home/champer/coding/examination/cmake-build-debug/CMakeFiles/sort_remove_repeat.dir/sort_remove_repeat.c.o"
+  "/home/champer/examination/sort_remove_repeat.c" "/home/champer/examination/cmake-build-debug/CMakeFiles/sort_remove_repeat.dir/sort_remove_repeat.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

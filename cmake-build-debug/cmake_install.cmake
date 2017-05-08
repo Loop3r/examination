@@ -1,4 +1,4 @@
-# Install script for directory: /home/champer/coding/examination
+# Install script for directory: /home/champer/examination
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/champer/coding/examination/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/champer/examination/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

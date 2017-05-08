@@ -1,1 +1,1 @@
-/usr/bin/cc  -g   CMakeFiles/triangle_area.dir/triangle_area.c.o  -o triangle_area 
+/usr/bin/c++   -g   CMakeFiles/triangle_area.dir/triangle_area.cpp.o  -o triangle_area -lm 
