@@ -5,7 +5,6 @@
 输入描述:
 输入包括一行,包含两个整数n和k(k < n ≤ 1000)
 
-
 输出描述:
 输出满足条件的排列数,答案对2017取模。
 
@@ -16,4 +15,65 @@
 66
 */
 
+#include <iostream>
+#include <vector>
 
+using namespace std;
+
+int count = 0;
+
+bool is_symbol_right(vector<int> array, int k){
+    int symbol_count=0;
+    for(int i=0; i<array.size()-1; i++){
+        if(array[i] < array [i+1]){
+            symbol_count++;
+        }
+        if(symbol_count > k){
+            return false;
+        }
+    }
+    if(symbol_count == k){
+        return true;
+    }
+    return false;
+
+}
+
+void swap(int *a, int *b){
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+void all_range(vector<int>* array, int start, int k){
+    for(int i=start; i<(*array).size(); i++){
+        swap(array[start], array[i]);
+        if(is_symbol_right(*array, k)){
+            count++;
+        }
+        all_range(array, start+1, k);
+        swap(array[start], array[i]);
+    }
+}
+
+
+
+int main()
+{
+    int n, k;
+    vector<int> array;
+    while(cin >> n >> k){
+        count = 0;
+        array.clear();
+
+        for(int i=0; i<n; i++){
+            array.push_back(i+1);
+        }
+
+        all_range(&array, 0, k);
+
+        cout << count << endl;
+
+    }
+
+}
