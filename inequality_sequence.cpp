@@ -45,17 +45,27 @@ void swap(int *a, int *b){
     *b = temp;
 }
 
-void all_range(vector<int>* array, int start, int k){
-    for(int i=start; i<(*array).size(); i++){
-        swap(array[start], array[i]);
-        if(is_symbol_right(*array, k)){
-            count++;
-        }
-        all_range(array, start+1, k);
-        swap(array[start], array[i]);
+void all_range(vector<int> array, int start, int k){
+    for(std::vector<int>::iterator m = array.begin(); m != array.end(); m++)
+    {
+        cout << *m;
     }
-}
+    cout << endl;
+    if(is_symbol_right(array, k)){
+        count++;
+    }
+    for(int i=start; i<array.size()-1; i++){
+        for (int j = start + 1; j < array.size() - 1; j++) {
+            swap(&array[start + 1], &array[j + 1]);
+            all_range(array, start + 2, k);
+            swap(&array[start + 1], &array[j + 1]);
+        }
+        swap(&array[start], &array[i+1]);
+        all_range(array, start + 1, k);
+        swap(&array[start], &array[i+1]);
+    }
 
+}
 
 
 int main()
@@ -70,10 +80,9 @@ int main()
             array.push_back(i+1);
         }
 
-        all_range(&array, 0, k);
+        all_range(array, 0, k);
 
         cout << count << endl;
-
     }
 
 }
