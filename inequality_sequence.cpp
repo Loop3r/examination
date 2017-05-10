@@ -55,16 +55,16 @@ void all_range(vector<int> array, int start, int k){
         count++;
     }
     for(int i=start; i<array.size()-1; i++){
-        for (int j = start + 1; j < array.size() - 1; j++) {
-            swap(&array[start + 1], &array[j + 1]);
-            all_range(array, start + 2, k);
-            swap(&array[start + 1], &array[j + 1]);
-        }
+
         swap(&array[start], &array[i+1]);
         all_range(array, start + 1, k);
         swap(&array[start], &array[i+1]);
     }
-
+    for(int j=start+1; j<array.size()-1; j++) {
+        swap(&array[start+1], &array[j+1]);
+        all_range(array, start+2, k);
+        swap(&array[start+1], &array[j+1]);
+    }
 }
 
 
