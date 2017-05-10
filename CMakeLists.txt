@@ -23,8 +23,8 @@ add_executable(triangle_area ${SOURCE_FILES6})
 
 target_link_libraries(triangle_area m)
 
-set(SOURCE_FILES7 put_tail_sort.c)
+set(SOURCE_FILES7 put_tail_sort.cpp)
 add_executable(put_tail_sort ${SOURCE_FILES7})
 
-set(SOURCE_FILES8 inequality_sequence)
+set(SOURCE_FILES8 inequality_sequence.cpp)
 add_executable(inequality_sequence ${SOURCE_FILES8})
