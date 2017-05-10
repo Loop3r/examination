@@ -403,32 +403,32 @@ sort_remove_repeat.c.s:
 	$(MAKE) -f CMakeFiles/sort_remove_repeat.dir/build.make CMakeFiles/sort_remove_repeat.dir/sort_remove_repeat.c.s
 .PHONY : sort_remove_repeat.c.s
 
-triangle_area.o: triangle_area.c.o
+triangle_area.o: triangle_area.cpp.o
 
 .PHONY : triangle_area.o
 
 # target to build an object file
-triangle_area.c.o:
-	$(MAKE) -f CMakeFiles/triangle_area.dir/build.make CMakeFiles/triangle_area.dir/triangle_area.c.o
-.PHONY : triangle_area.c.o
+triangle_area.cpp.o:
+	$(MAKE) -f CMakeFiles/triangle_area.dir/build.make CMakeFiles/triangle_area.dir/triangle_area.cpp.o
+.PHONY : triangle_area.cpp.o
 
-triangle_area.i: triangle_area.c.i
+triangle_area.i: triangle_area.cpp.i
 
 .PHONY : triangle_area.i
 
 # target to preprocess a source file
-triangle_area.c.i:
-	$(MAKE) -f CMakeFiles/triangle_area.dir/build.make CMakeFiles/triangle_area.dir/triangle_area.c.i
-.PHONY : triangle_area.c.i
+triangle_area.cpp.i:
+	$(MAKE) -f CMakeFiles/triangle_area.dir/build.make CMakeFiles/triangle_area.dir/triangle_area.cpp.i
+.PHONY : triangle_area.cpp.i
 
-triangle_area.s: triangle_area.c.s
+triangle_area.s: triangle_area.cpp.s
 
 .PHONY : triangle_area.s
 
 # target to generate assembly for a file
-triangle_area.c.s:
-	$(MAKE) -f CMakeFiles/triangle_area.dir/build.make CMakeFiles/triangle_area.dir/triangle_area.c.s
-.PHONY : triangle_area.c.s
+triangle_area.cpp.s:
+	$(MAKE) -f CMakeFiles/triangle_area.dir/build.make CMakeFiles/triangle_area.dir/triangle_area.cpp.s
+.PHONY : triangle_area.cpp.s
 
 # Help Target
 help:

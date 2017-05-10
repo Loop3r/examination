@@ -427,7 +427,7 @@
       <Unit filename="/home/champer/examination/sort_remove_repeat.c">
          <Option target="sort_remove_repeat"/>
       </Unit>
-      <Unit filename="/home/champer/examination/triangle_area.c">
+      <Unit filename="/home/champer/examination/triangle_area.cpp">
          <Option target="triangle_area"/>
       </Unit>
       <Unit filename="/home/champer/examination/CMakeLists.txt">

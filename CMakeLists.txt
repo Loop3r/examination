@@ -18,11 +18,13 @@ add_executable(buy_hat ${SOURCE_FILES4})
 set(SOURCE_FILES5 go_home.c)
 add_executable(go_home ${SOURCE_FILES5})
 
-set(SOURCE_FILES6 triangle_area.c)
+set(SOURCE_FILES6 triangle_area.cpp)
 add_executable(triangle_area ${SOURCE_FILES6})
 
-set(SOURCE_FILES7 put_tail_sort.c)
+target_link_libraries(triangle_area m)
+
+set(SOURCE_FILES7 put_tail_sort.cpp)
 add_executable(put_tail_sort ${SOURCE_FILES7})
 
-set(SOURCE_FILES8 inequality_sequence)
+set(SOURCE_FILES8 inequality_sequence.cpp)
 add_executable(inequality_sequence ${SOURCE_FILES8})
