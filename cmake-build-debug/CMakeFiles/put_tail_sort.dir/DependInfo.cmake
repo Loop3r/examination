@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/champer/coding/examination/put_tail_sort.c" "/home/champer/coding/examination/cmake-build-debug/CMakeFiles/put_tail_sort.dir/put_tail_sort.c.o"
+  "/home/champer/examination/put_tail_sort.c" "/home/champer/examination/cmake-build-debug/CMakeFiles/put_tail_sort.dir/put_tail_sort.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

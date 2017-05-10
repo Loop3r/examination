@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/champer/coding/examination/inequality_sequence.c" "/home/champer/coding/examination/cmake-build-debug/CMakeFiles/inequality_sequence.dir/inequality_sequence.c.o"
+  "/home/champer/examination/inequality_sequence.c" "/home/champer/examination/cmake-build-debug/CMakeFiles/inequality_sequence.dir/inequality_sequence.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/champer/coding/examination/hex_to_dec.c" "/home/champer/coding/examination/cmake-build-debug/CMakeFiles/hex_to_dec.dir/hex_to_dec.c.o"
+  "/home/champer/examination/hex_to_dec.c" "/home/champer/examination/cmake-build-debug/CMakeFiles/hex_to_dec.dir/hex_to_dec.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

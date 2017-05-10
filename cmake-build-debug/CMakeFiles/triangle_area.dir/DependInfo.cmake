@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/champer/coding/examination/triangle_area.c" "/home/champer/coding/examination/cmake-build-debug/CMakeFiles/triangle_area.dir/triangle_area.c.o"
+  "/home/champer/examination/triangle_area.c" "/home/champer/examination/cmake-build-debug/CMakeFiles/triangle_area.dir/triangle_area.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
