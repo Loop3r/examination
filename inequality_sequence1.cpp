@@ -13,18 +13,24 @@
 
 输出例子:
 66
+
+使用暴力解法（递归、库函数）得出全排列的方法在元素个数大于10时算法复杂度过大。
+
 */
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
+
+#define LIB_FUNC
+
+int seq_count = 0;
 
 using namespace std;
 
-int count = 0;
-
-bool is_symbol_right(vector<int> array, int k){
+bool is_symbol_right(vector<int> array, int k, int n){
     int symbol_count=0;
-    for(int i=0; i<array.size()-1; i++){
+    for(int i=0; i<n-1; i++){
         if(array[i] < array [i+1]){
             symbol_count++;
         }
@@ -36,7 +42,6 @@ bool is_symbol_right(vector<int> array, int k){
         return true;
     }
     return false;
-
 }
 
 void swap(int *a, int *b){
@@ -45,44 +50,54 @@ void swap(int *a, int *b){
     *b = temp;
 }
 
-void all_range(vector<int> array, int start, int k){
-    for(std::vector<int>::iterator m = array.begin(); m != array.end(); m++)
-    {
-        cout << *m;
-    }
-    cout << endl;
-    if(is_symbol_right(array, k)){
-        count++;
-    }
-    for(int i=start; i<array.size()-1; i++){
+#ifdef LIB_FUNC
+void all_range(vector<int> array, int start, int k, int n){
+    if(is_symbol_right(array, k, n)){
 
-        swap(&array[start], &array[i+1]);
-        all_range(array, start + 1, k);
-        swap(&array[start], &array[i+1]);
+
+        seq_count++;
     }
-    for(int j=start+1; j<array.size()-1; j++) {
-        swap(&array[start+1], &array[j+1]);
-        all_range(array, start+2, k);
-        swap(&array[start+1], &array[j+1]);
+    while(next_permutation(array.begin(), array.end())){
+        if(is_symbol_right(array, k, n)){
+            seq_count++;
+        }
     }
 }
 
+#else
+void all_range(vector<int> array, int start, int k, int n){
+/*    for(std::vector<int>::iterator m = array.begin(); m != array.end(); m++)
+    {
+        cout << *m;
+    }
+    cout << endl;*/
+    if(is_symbol_right(array, k, n)){
+        seq_count++;
+    }
+    for(start; start<n-1; start++){
+        for(int i=start; i<n-1; i++){
+            swap(&array[start], &array[i+1]);
+            all_range(array, start + 1, k, n);
+            swap(&array[start], &array[i+1]);
+        }
+    }
+}
+#endif
 
 int main()
 {
     int n, k;
     vector<int> array;
     while(cin >> n >> k){
-        count = 0;
+        seq_count = 0;
         array.clear();
 
         for(int i=0; i<n; i++){
             array.push_back(i+1);
         }
 
-        all_range(array, 0, k);
+        all_range(array, 0, k, n);
 
-        cout << count << endl;
+        cout << seq_count%2017 << endl;
     }
-
 }
