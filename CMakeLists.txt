@@ -31,3 +31,6 @@ add_executable(inequality_sequence1 ${SOURCE_FILES8})
 
 set(SOURCE_FILES9 inequality_sequence2.cpp)
 add_executable(inequality_sequence2 ${SOURCE_FILES9})
+
+set(SOURCE_FILES10 dual_core.cpp)
+add_executable(dual_core ${SOURCE_FILES10})

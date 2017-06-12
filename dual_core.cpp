@@ -21,14 +21,32 @@ n个任务可以按照任意顺序放入CPU进行处理，现在需要设计一�
 
 using namespace std;
 
+vector<unsigned int>& combination( unsigned int n, unsigned int m){
+    vector<unsigned int> v;
+    for(int i=0; i<n; i++){
+        if(i<m)
+            v.push_back(1);
+        else
+            v.push_back(0);
+    }
+    while(v[n-1]!=1)
+}
+
+
 int main()
 {
-    vector<int> length;
-    unsigned int n, temp;
+    vector<unsigned int> length;
+    unsigned int n, temp, sum;
     while(cin >> n){
+        sum = 0;
         for(int i=0; i<n; i++){
             cin >> temp;
             length.push_back(temp);
+            sum += temp;
+        }
+
+        for(int i=0; i<n/2; i++){
+            for(int j=0; j<)
         }
 
 
